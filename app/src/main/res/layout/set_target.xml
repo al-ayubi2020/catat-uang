@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NOMINAL : "
+                        android:textColor="@color/emas"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/ammount_set_update"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Rp"
+                        android:inputType="numberDecimal"/>
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnbatal_set"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BATAL"
+                        app:backgroundTint="@android:color/holo_blue_dark" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnhapus_set"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="hapus"
+                        app:backgroundTint="@color/grey" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btntetapkan_set"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ATUR"
+                        app:backgroundTint="@color/orange" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

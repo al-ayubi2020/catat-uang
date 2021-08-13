@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="5dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/expense_type_dashboard_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Type"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/expense_ammount_dashboard_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="Ammount"
+            android:textColor="@color/color_Pengeluaran"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/expense_date_dashboard_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Date"
+            android:textSize="10sp"
+            android:textColor="@color/date"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1054094968166",
+    "firebase_url": "https://catatuang-nikephoros-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "catatuang-nikephoros",
+    "storage_bucket": "catatuang-nikephoros.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054094968166:android:d50b6ab5c438ace761b4a7",
+        "android_client_info": {
+          "package_name": "com.example.pencatattransaksi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054094968166-3alo0kks7plmfjqobku9qkrfolabp39a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa0jOJuBXahckdH1HKeaE16FM33r6GFXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054094968166-3alo0kks7plmfjqobku9qkrfolabp39a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
